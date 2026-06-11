@@ -335,6 +335,34 @@ body {
     justify-content: space-between;
 }
 
+.rev-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 1rem;
+}
+
+.rev-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--border-color);
+}
+
+.rev-header .stars {
+    margin-bottom: 0.2rem;
+    font-size: 0.85rem;
+}
+
+.rev-header .rev-a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    justify-content: flex-start;
+}
+
 .vb {
     color: var(--primary);
     font-size: 0.8rem;
